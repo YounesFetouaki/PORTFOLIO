@@ -115,4 +115,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 Thanks to the developers of the technologies used in this project.
 Special thanks to the community for their continuous support and contributions.
-
