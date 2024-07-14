@@ -37,8 +37,8 @@ Check out the live project [here](https://fetouaki-younes.netlify.app/).
 
 1. **Clone the repository**:
    ```
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+   git clone https://github.com/YounesFetouaki/PORTFOLIO.git
+   cd PORTFOLIO
    ```
 
    2. **Install backend dependencies**:
