@@ -9,7 +9,7 @@ module.exports = {
   ],
   prefix: "",
   theme: {
-    container: {
+    container: { 
       center: true,
       padding: "2rem",
       screens: {
