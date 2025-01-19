@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const ProjectView = () => {
   const [title, setTitle] = useState("");
-  const [description, setDescription] = useState("");
+  const [description, setDescription] = useState(""); 
   const [technologies, setTechnologies] = useState("");
   const [stack, setStack] = useState("");
   const [gitRepoLink, setGitRepoLink] = useState("");
