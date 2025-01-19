@@ -14,7 +14,7 @@
   border-radius: 7px;
 }
 .text-tubeLight-effect {
-  display: flex;
+  display: flex; 
   color: #fff;
   position: relative;
   text-transform: uppercase;
