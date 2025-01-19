@@ -3,7 +3,7 @@
   "style": "default",
   "rsc": true,
   "tsx": false,
-  "tailwind": {
+  "tailwind": { 
     "config": "tailwind.config.js",
     "css": "src/index.css",
     "baseColor": "slate",
