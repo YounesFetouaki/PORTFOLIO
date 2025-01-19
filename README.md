@@ -4,7 +4,7 @@
 
 ## Project Deployed
 
-Check out the live project [here](https://fetouaki-younes.netlify.app/).
+Check out the live project [here](https://fetouaki-younes.netlify.app/). 
 
 ## Features
 
