@@ -15,7 +15,7 @@ import axios from "axios";
 
 const Hero = () => {
   const [user, setUser] = useState({});
-  useEffect(() => {
+  useEffect(() => { 
     const getMyProfile = async () => {
       const { data } = await axios.get(
         "http://localhost:4000/api/v1/user/portfolio/me",

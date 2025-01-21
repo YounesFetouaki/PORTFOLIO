@@ -8,7 +8,7 @@ export const postTimeline = catchAsyncErrors(async (req, res, next) => {
     title,
     description,
     timeline: { from, to },
-  });
+  }); 
   res.status(200).json({
     success: true,
     message: "Timeline Added!",

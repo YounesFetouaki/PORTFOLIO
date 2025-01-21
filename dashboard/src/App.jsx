@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Login from "./pages/Login";
 import HomePage from "./pages/HomePage";
 import ManageSkills from "./pages/ManageSkills";
-import ManageProjects from "./pages/ManageProjects";
+import ManageProjects from "./pages/ManageProjects"; 
 import UpdateProject from "./pages/UpdateProject";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";

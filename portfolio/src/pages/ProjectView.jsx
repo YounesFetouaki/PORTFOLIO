@@ -15,7 +15,7 @@ const ProjectView = () => {
   const [projectBanner, setProjectBanner] = useState("");
   const [projectBannerPreview, setProjectBannerPreview] = useState("");
   const { id } = useParams();
-
+ 
   useEffect(() => {
     const getProject = async () => {
       await axios

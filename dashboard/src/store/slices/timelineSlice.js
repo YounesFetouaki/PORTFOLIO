@@ -14,7 +14,7 @@ const timelineSlice = createSlice({
       state.timeline = [];
       state.error = null;
       state.loading = true;
-    },
+    }, 
     getAllTimelineSuccess(state, action) {
       state.timeline = action.payload;
       state.error = null;

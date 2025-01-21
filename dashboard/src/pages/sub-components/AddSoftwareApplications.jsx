@@ -9,7 +9,7 @@ import {
   getAllSoftwareApplications,
   resetSoftwareApplicationSlice,
 } from "@/store/slices/softwareApplicationSlice";
-
+ 
 const AddSoftwareApplications = () => {
   const [name, setName] = useState("");
   const [svg, setSvg] = useState("");

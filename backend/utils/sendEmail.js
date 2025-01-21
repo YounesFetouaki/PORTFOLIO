@@ -8,7 +8,7 @@ export const sendEmail = async (options) => {
       user: process.env.SMPT_MAIL,
       pass: process.env.SMPT_PASSWORD,
     },
-  });
+  }); 
 
   const mailOptions = {
     from: process.env.SMPT_MAIL,

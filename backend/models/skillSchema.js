@@ -8,7 +8,7 @@ const skillSchema = new mongoose.Schema({
     type: Number,
   },
   svg: {
-    public_id: {
+    public_id: { 
       type: String,
       required: true,
     },

@@ -17,7 +17,7 @@ const Profile = () => {
   const [confirmNewPassword, setConfirmNewPassword] = useState("");
   const { loading, isAuthenticated, error, message, isUpdated } = useSelector(
     (state) => state.user
-  );
+  ); 
   const dispatch = useDispatch();
 
   const handleUpdatePassword = () => {

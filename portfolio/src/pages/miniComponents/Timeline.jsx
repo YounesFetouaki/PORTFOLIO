@@ -14,7 +14,7 @@ const Timeline = () => {
     getMyTimeline();
   }, []);
   return (
-    <div>
+    <div> 
     <h1 className="overflow-x-hidden text-[2rem] sm:text-[1.75rem] md:text-[2.2rem] lg:text-[2.8rem] mb-4 font-extrabold">Timeline</h1>
       <ol className="relative border-s border-gray-200 dark:border-gray-700">
         {timeline &&

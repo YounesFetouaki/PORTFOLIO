@@ -5,7 +5,7 @@ export const dbConnection = () => {
     .connect(process.env.MONGO_URI, {
       dbName: "MERN_STACK_PERSONAL_PORTFOLIO",
     })
-    .then(() => {
+    .then(() => { 
       console.log("Connected to database!");
     })
     .catch((err) => {

@@ -5,7 +5,7 @@ const messageSchema = new mongoose.Schema({
     type: String,
     minLength: [2, "Name Must Contain At Least 2 Characters!"],
   },
-  subject: {
+  subject: { 
     type: String,
     minLength: [2, "Subject Must Contain At Least 2 Characters!"],
   },

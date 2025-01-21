@@ -19,7 +19,7 @@ import {
   deleteTimeline,
   getAllTimeline,
   resetTimelineSlice,
-} from "@/store/slices/timelineSlice";
+} from "@/store/slices/timelineSlice"; 
 
 const ManageTimeline = () => {
   const navigateTo = useNavigate();

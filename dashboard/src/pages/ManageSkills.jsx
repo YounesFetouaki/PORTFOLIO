@@ -18,7 +18,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import {
-  clearAllSkillErrors,
+  clearAllSkillErrors, 
   updateSkill,
   resetSkillSlice,
   deleteSkill,

@@ -7,7 +7,7 @@ const forgotResetPassSlice = createSlice({
     loading: false,
     error: null,
     message: null,
-  },
+  }, 
   reducers: {
     forgotPasswordRequest(state, action) {
       state.loading = true;

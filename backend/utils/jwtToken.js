@@ -8,7 +8,7 @@ export const generateToken = (user, message, statusCode, res) => {
       success: false,
       message: 'JWT_SECRET is not defined in environment variables',
     });
-  }
+  } 
 
   const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET_KEY, {
     expiresIn: process.env.JWT_EXPIRES,

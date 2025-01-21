@@ -11,7 +11,7 @@ const userSlice = createSlice({
     message: null,
     isUpdated: false,
   },
-  reducers: {
+  reducers: { 
     loginRequest(state, action) {
       state.loading = true;
       state.isAuthenticated = false;

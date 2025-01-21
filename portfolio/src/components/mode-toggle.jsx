@@ -10,7 +10,7 @@ import {
 import { useTheme } from "@/components/theme-provider";
 
 export function ModeToggle() {
-  const { setTheme } = useTheme();
+  const { setTheme } = useTheme(); 
 
   return (
     <div className="px-5 sm:mx-auto w-full max-w-[1050px] text-end mt-10 mb-5">

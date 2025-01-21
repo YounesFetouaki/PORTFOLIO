@@ -14,7 +14,7 @@ const softwareApplicationSlice = createSlice({
       state.softwareApplications = [];
       state.error = null;
       state.loading = true;
-    },
+    }, 
     getAllsoftwareApplicationsSuccess(state, action) {
       state.softwareApplications = action.payload;
       state.error = null;

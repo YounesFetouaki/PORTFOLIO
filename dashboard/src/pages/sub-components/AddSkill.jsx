@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
 import { Button } from "@/components/ui/button";
 import SpecialLoadingButton from "./SpecialLoadingButton";
-
+ 
 const AddSkill = () => {
   const [title, setTitle] = useState("");
   const [proficiency, setProficiency] = useState("");

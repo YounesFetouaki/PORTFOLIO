@@ -17,7 +17,7 @@ const ForgotPassword = () => {
   const { isAuthenticated } = useSelector((state) => state.user);
   const dispatch = useDispatch();
   const navigateTo = useNavigate();
-
+ 
   const handleForgotPassword = (email) => {
     dispatch(forgotPassword(email));
   };

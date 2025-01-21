@@ -9,3 +9,4 @@ router.delete("/delete/:id", isAuthenticated, deleteMessage);
 router.get("/getall", isAuthenticated, getAllMessages);
 
 export default router;
+ 

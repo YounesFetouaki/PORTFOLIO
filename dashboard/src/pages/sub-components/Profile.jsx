@@ -10,7 +10,7 @@ const Profile = () => {
   return (
     <>
       <div className="w-full h-full">
-        <div>
+        <div> 
           <div className="grid w-[100%] gap-6">
             <div className="grid gap-2">
               <h1 className="text-3xl font-bold">Profile</h1>

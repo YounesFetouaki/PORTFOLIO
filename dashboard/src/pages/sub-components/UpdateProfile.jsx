@@ -18,7 +18,7 @@ const UpdateProfile = () => {
   const { user, loading, error, isUpdated, message } = useSelector(
     (state) => state.user
   );
-
+ 
   const [fullName, setFullName] = useState(user && user.fullName);
   const [email, setEmail] = useState(user && user.email);
   const [phone, setPhone] = useState(user && user.phone);

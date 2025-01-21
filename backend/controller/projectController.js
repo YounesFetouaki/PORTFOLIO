@@ -6,7 +6,7 @@ import { v2 as cloudinary } from "cloudinary";
 export const addNewProject = catchAsyncErrors(async (req, res, next) => {
   if (!req.files || Object.keys(req.files).length === 0) {
     return next(new ErrorHandler("Project Banner Image Required!", 404));
-  }
+  } 
   const { projectBanner } = req.files;
   const {
     title,

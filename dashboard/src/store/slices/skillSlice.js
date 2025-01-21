@@ -12,7 +12,7 @@ const skillSlice = createSlice({
   reducers: {
     getAllSkillsRequest(state, action) {
       state.skills = [];
-      state.error = null;
+      state.error = null; 
       state.loading = true;
     },
     getAllSkillsSuccess(state, action) {

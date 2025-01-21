@@ -12,7 +12,7 @@ export const store = configureStore({
     user: userReducer,
     forgotPassword: forgotPasswordReducer,
     skill: skillReducer,
-    project: projectReducer,
+    project: projectReducer, 
     timeline: timelineReducer,
     softwareApplications: softwareApplicationReducer,
     messages: messageReducer,

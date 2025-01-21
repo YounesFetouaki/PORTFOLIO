@@ -13,7 +13,7 @@ const Pagination = ({
     aria-label="pagination"
     className={cn("mx-auto flex w-full justify-center", className)}
     {...props} />
-)
+) 
 Pagination.displayName = "Pagination"
 
 const PaginationContent = React.forwardRef(({ className, ...props }, ref) => (

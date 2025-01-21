@@ -16,7 +16,7 @@ const Portfolio = () => {
       setProjects(data.projects);
     };
     getMyProjects();
-  }, []);
+  }, []); 
   return (
     <div>
       <div className="relative mb-12">

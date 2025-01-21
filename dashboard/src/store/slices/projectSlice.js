@@ -9,7 +9,7 @@ const projectSlice = createSlice({
     error: null,
     message: null,
     singleProject: {},
-  },
+  }, 
   reducers: {
     getAllProjectsRequest(state, action) {
       state.projects = [];

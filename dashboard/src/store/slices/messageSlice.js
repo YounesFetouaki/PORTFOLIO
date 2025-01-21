@@ -7,7 +7,7 @@ const messageSlice = createSlice({
     loading: false,
     messages: [],
     error: null,
-    message: null,
+    message: null, 
   },
   reducers: {
     getAllMessagesRequest(state, action) {

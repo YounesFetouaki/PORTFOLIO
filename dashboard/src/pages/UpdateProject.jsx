@@ -17,7 +17,7 @@ import {
   clearAllProjectErrors,
   getAllProjects,
   resetProjectSlice,
-  updateProject,
+  updateProject, 
 } from "@/store/slices/projectSlice";
 import { Button } from "@/components/ui/button";
 

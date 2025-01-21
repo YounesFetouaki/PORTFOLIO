@@ -13,7 +13,7 @@ const Contact = () => {
   const handleMessage = async (e) => {
     e.preventDefault();
     setLoading(true);
-    await axios
+    await axios 
       .post(
         "http://localhost:4000/api/v1/message/send",
         { senderName, subject, message },

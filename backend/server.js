@@ -10,7 +10,7 @@ cloudinary.v2.config({
 console.log("CLOUDINARY_CLOUD_NAME:", process.env.CLOUDINARY_CLOUD_NAME);
 console.log("JWT_SECRET:", process.env.JWT_SECRET_KEY);
 console.log("PORT:", process.env.PORT);
-
+ 
 app.listen(process.env.PORT, () => {
   console.log(`Server listening at port ${process.env.PORT}`);
 });

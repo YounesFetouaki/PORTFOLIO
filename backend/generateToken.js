@@ -12,7 +12,7 @@ const payload = {
 const secretKey = process.env.JWT_SECRET; // Ensure this is set in your .env file
 const options = {
   expiresIn: '7d', // Token expiration time
-};
+}; 
 
 if (!secretKey) {
   console.error('JWT_SECRET is not defined in the environment variables');

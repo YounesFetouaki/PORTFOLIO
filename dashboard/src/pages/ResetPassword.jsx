@@ -18,7 +18,7 @@ const Login = () => {
   const [confirmPassword, setConfirmPassword] = useState("");
   const { loading, error, message } = useSelector(
     (state) => state.forgotPassword
-  );
+  ); 
   const { isAuthenticated } = useSelector((state) => state.user);
   const dispatch = useDispatch();
   const navigateTo = useNavigate();

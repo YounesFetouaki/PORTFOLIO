@@ -8,7 +8,7 @@ export const addNewApplication = catchAsyncErrors(async (req, res, next) => {
     return next(
       new ErrorHandler("Software Application Icon/Image Required!", 404)
     );
-  }
+  } 
   const { svg } = req.files;
   const { name } = req.body;
   if (!name) {
