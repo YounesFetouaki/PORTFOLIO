@@ -10,7 +10,7 @@ export function ThemeProvider({ children, defaultTheme = "system", storageKey = 
 
     root.classList.remove("light", "dark");
 
-    if (theme === "system") {
+    if (theme === "system") { 
       const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 
       root.classList.add(systemTheme);
